@@ -17,11 +17,11 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       	#fafafa;
-$background-hr:		#383838;
-$background-color: 	#222222;
-$background-darker: #1B1B1B;
-$brand-color:	   	#399339; // #43A047;
-$anchor-hover-color:	lighten($brand-color, 30%);
+$background-hr: 	#383838;
+$background-color: 	#000000; // #222222;
+$background-darker: #000000; // #1B1B1B;
+$brand-color:	   	#3c9339; // #00BFFF #FF5900 #1B7400 #39BF00 #43A047;
+$anchor-hover-color: 	lighten($brand-color, 30%);
 
 $player-now-playing-size:   13px;
 $player-height:		64px;
