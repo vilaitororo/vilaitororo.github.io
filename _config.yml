@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "https://github.com/vilaitororo/" # the base hostname & protocol for your site
-logo: "/assets/img/logo/logo_vilaitororocanteiroaberto_000.png"
+logo: "/assets/img/logo/logo_vilaitororocanteiroaberto_h_fff_t_155h.png"
 twitter_username: vilaitororo
 github_username:  vilaitororo
 menu_heading: "Select another stop"
