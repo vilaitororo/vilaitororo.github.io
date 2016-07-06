@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  	{% include tagmanager.html %}
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper welcome">
+      	<div class="slick-container-container">
+	      	<div class="slick-container">
+		      	<div class="slick">
+		    		<div>
+						<p>Bem vidos.<br />Vamos levar você para conhecer o projeto Vila Itororó Canteiro Aberto.</p>
+
+						<p>O percurso principal tem 31 paradas e dura 45 minutos.</p>
+
+						<p>As paradas 32 a 38 são faixas extras.</p>
+						<div class="prompt slick-slide-to-next">Deslize para saber mais
+						<span class="button-forward">
+	      					<img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/>
+	    				</span>
+	    				</div>
+					</div>
+					<div>
+						<p>Procure as placas com o simbolo de fones e aperte o número diante do qual você está para começar.</p>
+						<p>
+							<img class="welcome-example-icon slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/example-headphones-icon.gif"/>
+						</p>
+					</div>
+					<div>
+						<p>Pressione o icone do menu no canto superior direito para voltar à lista de paradas.</p>
+						<p>
+							<img class="screenshot slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/highlight-bento-menu.gif"/>
+						</p>
+					</div>
+					<div>
+						<p>Use os botões na parte inferior da tela para avançar para a próxima parada ou para voltar à parada anterior.</p>
+						<p>
+							<img class="screenshot slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/highlight-footer-buttons.gif"/>
+						</p>
+					</div>
+					<div>
+						<br/>
+						<p class="centered"><a href="{{ site.baseurl }}/">Vamos lá!</a></p>
+						<p class="centered">
+							<a href="{{ site.baseurl }}/" class="prompt-big"><button class="styled-button"><img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/></button></a>
+						</p>
+					</div>
+		    	</div>
+		    </div>
+		</div>
+	    <div id="arrows-container">
+	    </div>
+
+        {{ content }}
+      </div>
+      	    <p class="skip-text">
+	    	<a href="{{ site.baseurl }}/">
+	        	Tudo bem, vamos!
+	    	</a>
+	    </p>
+    </div>
+
+  </body>
+
+</html>

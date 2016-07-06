@@ -17,8 +17,8 @@ url: "https://github.com/vilaitororo/" # the base hostname & protocol for your s
 logo: "/assets/img/logo/logo_vilaitororocanteiroaberto_h_fff_t_155h.png"
 twitter_username: vilaitororo
 github_username:  vilaitororo
-menu_heading: "Select another stop"
-index_page_text: "Select an audio guide stop to begin."
+menu_heading: "Selecione outra parada"
+index_page_text: "Escolha uma parada para ouvir o áudio."
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 

@@ -1,1 +1,1 @@
-Select an audio guide stop to begin.
+Escolha uma parada para ouvir o áudio.
