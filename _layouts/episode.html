@@ -21,6 +21,7 @@ layout: master_episode
         {% for hero in page.hero_images %}
           <div class="post-hero-image">    
             <img src="{{ site.baseurl }}{{ site.episode_hero_path }}{{hero.path}}" alt="{{hero.alt_text}}"/>
+            <p>{{hero.alt_text}}</p>
           </div>
         {% endfor %}
       </div>
