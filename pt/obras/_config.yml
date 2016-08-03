@@ -9,11 +9,11 @@
 title: Vila Itororó Canteiro Aberto
 email: vilaitororo@estudiozut.com
 description: > # this means to ignore newlines until "baseurl:"
-  A web-based audio guide theme for Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
+  audioguia
+baseurl: "/pt/obras" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
-url: "https://github.com/vilaitororo/" # the base hostname & protocol for your site
+url: "https://github.com/vilaitororo/pt/obras/" # the base hostname & protocol for your site
 logo: "/assets/img/logo/logo_vilaitororocanteiroaberto_h_fff_t_155h.png"
 twitter_username: vilaitororo
 github_username:  vilaitororo
