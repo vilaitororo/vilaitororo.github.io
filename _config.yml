@@ -10,7 +10,7 @@ title: Vila Itororó Canteiro Aberto
 email: vilaitororo@estudiozut.com
 description: > # this means to ignore newlines until "baseurl:"
   audioguia
-baseurl: "/pt/obras" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "https://github.com/vilaitororo" # the base hostname & protocol for your site
