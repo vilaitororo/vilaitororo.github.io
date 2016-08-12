@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  	{% include tagmanager.html %}
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper welcome">
+      	<div class="slick-container-container">
+	      	<div class="slick-container">
+		      	<div class="slick">
+		    		<div>
+						<p>Bem vindos e bem vindas</p>
+
+						<p>Conheça o projeto Vila Itororó Canteiro Aberto seguindo esse passeio sonoro de 45 minutos, e 30 paradas.</p>
+
+						<p>Não deixe de conferir as paradas 31 a 37, que são faixas extras para conhecer melhor as histórias da Vila Itororó.</p>
+						<div class="prompt slick-slide-to-next">Deslize para saber mais
+						<span class="button-forward">
+	      					<img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/>
+	    				</span>
+	    				</div>
+					</div>
+					<div>
+						<p>Pegue o mapa com um dos educadores e siga as paradas a partir da numeração ou do seu interesse.</p>
+						<p>
+							<img class="welcome-example-icon slick-slide-to-next" src="{{ site.baseurl }}/assets/img/bemvindos/example-headphones-icon.png"/>
+						</p>
+					</div>
+					<div>
+						<p>Pressione o icone do menu no canto superior direito para voltar à lista de paradas.</p>
+						<p>
+							<img class="screenshot slick-slide-to-next" src="{{ site.baseurl }}/assets/img/bemvindos/highlight-bento-menu.png"/>
+						</p>
+					</div>
+					<div>
+						<p>Use os botões na parte inferior da tela para avançar para a próxima parada ou para voltar à parada anterior.</p>
+						<p><img class="screenshot slick-slide-to-next" src="{{ site.baseurl }}/assets/img/bemvindos/highlight-footer-buttons.png"/></p>
+						<p>Em cada parada, passe o dedo na foto para ver outras imagens referentes ao local selecionado.</p>
+					</div>
+					<div>
+						<br/>
+						<p class="centered"><a href="{{ site.baseurl }}/">Vamos lá!</a></p>
+						<p class="centered">
+							<a href="{{ site.baseurl }}/" class="prompt-big"><button class="styled-button"><img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/></button></a>
+						</p>
+					</div>
+		    	</div>
+		    </div>
+		</div>
+	    <div id="arrows-container">
+	    </div>
+
+        {{ content }}
+      </div>
+      	    <p class="skip-text">
+	    	<a href="{{ site.baseurl }}/">
+	        Entendi, vamos começar!
+	    	</a>
+	    </p>
+    </div>
+
+  </body>
+
+</html>
