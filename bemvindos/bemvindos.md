@@ -2,5 +2,5 @@
 layout: bemvindos
 permalink: /bemvindos/
 type:
-title: Bem vindos
+title: Vila Itororó Canteiro Aberto - Bem vindos
 ---
